@@ -1,0 +1,16 @@
+{
+  "apiVersion": 2,
+  "name": "aleksei/crypto-price",
+  "title": "BTC Price Tracker",
+  "category": "widgets",
+  "icon": "chart-line",
+  "description": "Displays live cryptocurrency prices from Binance.",
+  "keywords": ["crypto", "bitcoin", "ethereum", "dogecoin", "price"],
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "viewScript": "file:./frontend.js",
+  "textdomain": "bitcoin-tracker"
+}
