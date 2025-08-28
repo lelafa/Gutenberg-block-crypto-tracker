@@ -1,9 +1,13 @@
 <?php
 /*
-Plugin Name: Crypto Tracker
-Description: A crypto tracker block fetching data from Binance. Supports all currincies listed on Binance.
-Version: 1.4
-Author: Aleksei
+ * Plugin Name: Crypto Tracker Block
+ * Plugin URI:  https://github.com/lelafa/Gutenberg-block-crypto-tracker
+ * Description: A Gutenberg block that fetches and displays real-time cryptocurrency data from Binance.
+ * Version:     1.0.0
+ * Author:      Aleksei Anikeev
+ * License:     GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: crypto-tracker
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
