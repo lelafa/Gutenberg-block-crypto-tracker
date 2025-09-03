@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Crypto Tracker Block
+ * Plugin Name: Crypto Tracker
  * Plugin URI:  https://github.com/lelafa/Gutenberg-block-crypto-tracker
  * Description: A Gutenberg block that fetches and displays real-time cryptocurrency data from Binance.
  * Version:     1.0.0
@@ -41,6 +41,7 @@ class Crypto_Tracker {
                     ? new WP_REST_Response( $data, 200 )
                     : new WP_REST_Response( [ 'error' => 'Invalid response' ], 500 );
             },
+            'permission_callback' => '__return_true'
         ] );
         
         register_rest_route('crypto/v1', '/price', [
@@ -67,6 +68,7 @@ class Crypto_Tracker {
                     'price'  => $formatted
                 ];
             },
+            'permission_callback' => '__return_true'
         ]);
     }
 }

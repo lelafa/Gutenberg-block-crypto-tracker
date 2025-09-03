@@ -1,4 +1,4 @@
-=== Crypto Tracker Block ===
+=== Crypto Tracker ===
 Contributors: lelafa
 Tags: crypto, cryptocurrency, binance, blockchain, gutenberg
 Requires at least: 6.0
